@@ -1,0 +1,31 @@
+Description of the variables from hypothetical HMO-HIV+ study shown in
+Table 1.1 of Hosmer, D.W. and Lemeshow, S. (1998) Applied Survival
+Analysis: Regression Modeling of Time to Event Data, John Wiley and Sons
+Inc., New York, NY
+
+Data are in the file hmohiv.dat
+
+n =100
+
+Variable		Desrciption		Codes / Units
+
+ID			Subject ID Code	1-100
+
+ENTDATE		Entry date 		ddmmyr
+
+ENDDATE		Entry date		ddmmyr
+
+TIME			Survival Time 	days between Entry date
+					       and End date
+
+AGE			Age			years
+
+DRUG			History of		0 = No
+			IV Drug Use		1 = Yes
+
+CENSOR		Follow-Up Status	1 = Death due to AIDS
+						    or AIDS related factors
+
+						0 = Alive at study end
+						    or lost to follow-up
+
